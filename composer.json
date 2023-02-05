@@ -1,0 +1,15 @@
+{
+    "name": "crud/operation",
+    "description": "Simple Crud Operation",
+    "autoload": {
+        "psr-4": {
+            "Crud\\Operation\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Partho Kar"
+        }
+    ],
+    "require": {}
+}
