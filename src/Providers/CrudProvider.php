@@ -13,7 +13,7 @@ class CrudProvider extends ServiceProvider
      */
     public function register()
     {
-        if ($this->app->runningInConsole()) {
+       
             $this->publishes([
                 __DIR__ . '/../routes/web.php' => base_path('routes/web.php'),
             ]);
@@ -21,7 +21,7 @@ class CrudProvider extends ServiceProvider
             $this->publishes([
                 __DIR__ . '/../views' => base_path('resources/views/'),
             ]);
-        }
+        
     }
 
     /**
