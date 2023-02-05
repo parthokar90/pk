@@ -6,6 +6,13 @@
             "Crud\\Operation\\": "src/"
         }
     },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Crud\\Operation\\Providers\\CrudGeneratorServiceProvider"
+            ]
+        }
+    },
     "authors": [
         {
             "name": "Partho Kar"
