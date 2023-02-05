@@ -9,7 +9,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Crud\\Operation\\Providers\\CrudGeneratorServiceProvider"
+                "Crud\\Operation\\Providers\\CrudProvider"
             ]
         }
     },
