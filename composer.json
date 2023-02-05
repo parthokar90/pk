@@ -1,5 +1,5 @@
 {
-    "name": "crud/operation",
+    "name": "cruds/operation",
     "description": "Simple Crud Operation",
     "autoload": {
         "psr-4": {
