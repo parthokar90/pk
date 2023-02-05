@@ -14,11 +14,11 @@ class CrudProvider extends ServiceProvider
     public function register()
     {
        
-            $this->publishes([
+            $this->publish([
                 __DIR__ . '/../routes/web.php' => base_path('routes/web.php'),
             ]);
 
-            $this->publishes([
+            $this->publish([
                 __DIR__ . '/../views' => base_path('resources/views/'),
             ]);
         
