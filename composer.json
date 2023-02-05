@@ -3,13 +3,13 @@
     "description": "Simple Crud Operation",
     "autoload": {
         "psr-4": {
-            "Crud\\Operation\\": "src/"
+            "Cruds\\Operation\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Crud\\Operation\\Providers\\CrudProvider"
+                "Cruds\\Operation\\Providers\\CrudProvider"
             ]
         }
     },
